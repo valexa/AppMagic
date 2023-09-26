@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'App Magic' target in the 'App Magic' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define DEG2RAD(angle) angle*M_PI/180.0
+
+#define DARK_ORANGE_COLOR [NSColor colorWithCalibratedRed:0.80 green:0.40 blue:0.20 alpha:1.0]
+#define ORANGE_COLOR [NSColor colorWithCalibratedRed:0.90 green:0.55 blue:0.30 alpha:1.0]
+#define LGRAY_COLOR [NSColor colorWithCalibratedRed:0.88 green:0.88 blue:0.88 alpha:1.0]

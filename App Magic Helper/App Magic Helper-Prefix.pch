@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'App Magic Helper' target in the 'App Magic Helper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
